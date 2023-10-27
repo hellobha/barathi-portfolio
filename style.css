@@ -160,7 +160,7 @@ header .navbar ul li a:hover{
 #menu{
     position: fixed;
     top:2rem; right:2rem;
-    background: hwb(266 58% 4%);
+    background: rgb(118, 117, 119);
     color: hsl(81, 81%, 50%);
     cursor: pointer;
     font-size: 2.5rem;
@@ -180,7 +180,7 @@ header .navbar ul li a:hover{
 .home h3{
     font-size: 4rem;
     color:#ffff;
-    padding:4rem 15rem;
+    padding:3rem 11rem;
 }
 
 .home h1{
@@ -194,6 +194,7 @@ header .navbar ul li a:hover{
 
 .home h2{
     font-size:3rem;
+    padding: 2rem;
     color:hsl(56, 97%, 57%);
 }
 
@@ -320,7 +321,7 @@ header .navbar ul li a:hover{
     background: var(--yellow);
 }
 
-.hopy .box-container{
+.hobby .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -328,7 +329,7 @@ header .navbar ul li a:hover{
     padding: 3rem 4rem;
 }
 
-.hopy .box-container .box{
+.hobby .box-container .box{
     height: 20rem;
     width: 28rem;
     border-radius: 1rem;
@@ -337,13 +338,13 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.hopy .box-container .box img{
+.hobby .box-container .box img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.hopy .box-container .box:hover img{
+.hobby .box-container .box:hover img{
     transform: scale(1.2);
 }
 
@@ -452,13 +453,13 @@ header .navbar ul li a:hover{
         align-items: flex-start;
     }
     .navbar ul{
-        width: 100px;
+        width: 150px;
         background-color: #f9ca24;
         flex-direction: column;
         padding-left: 0px;
     }
     .navbar.active{
-        display: flex;
+        display: block;
     
     
 }
